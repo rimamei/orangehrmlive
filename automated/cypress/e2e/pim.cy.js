@@ -6,7 +6,6 @@ describe("PIM", () => {
     cy.get('[name="username"]').type("Admin");
     cy.get('[name="password"]').type("admin123");
     cy.get('[type="submit"]').click();
-    cy.get(cy.get(".oxd-main-menu-item"));
   });
 
   it("Search by ID", () => {
